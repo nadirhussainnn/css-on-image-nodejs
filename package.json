@@ -1,0 +1,33 @@
+{
+  "name": "css-on-image-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nadirhussainnn/css-on-image-nodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nadirhussainnn/css-on-image-nodejs/issues"
+  },
+  "homepage": "https://github.com/nadirhussainnn/css-on-image-nodejs#readme",
+  "dependencies": {
+    "cloudinary": "^1.33.0",
+    "cloudmersive-image-api-client": "^1.3.5",
+    "cloudmersive-validate-api-client": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "jimp": "^0.16.2",
+    "nodemon": "^2.0.20",
+    "sharp": "^0.31.3"
+  }
+}
